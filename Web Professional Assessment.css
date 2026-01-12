@@ -1,0 +1,87 @@
+.Lin_Myat_Heins_Portfolio,
+.About_CIYClub,
+.My_Projects {
+    text-align: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.nav-links ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,
+            rgb(0, 255, 191),
+            rgb(91, 233, 8)
+        );
+}
+
+p {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 130%;
+    text-align: center;
+}
+
+.ciy,
+h2 {
+    color: #1098d7;
+}
+
+.Profile {
+    display: block;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.li{
+    text-align: center;
+    text-decoration: none;
+}
+td{
+     font-family: 'Brush Script MT', cursive;
+}
